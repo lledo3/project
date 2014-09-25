@@ -1,0 +1,9 @@
+parse through excel files in a folder and output a summary into an HTML document. 
+
+The summary should include the following calculations:
+Total Impressions (The sum of everything from the Impr. column)
+Filled Impressions (Total impressions - Passback Impressions from the Impr. column)
+Earnings (Sum of everything in the Rev. column divided by two)
+eCPM (Earnings / (Total Impressions / 1000))
+
+The template to output to has been included, and the calculations have been done for Report 1 for clarity.
